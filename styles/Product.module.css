@@ -78,13 +78,12 @@
     font-weight: 500;
 }
 
-.quantity{
-width: 50px;
-height: 30px;
+.quantity {
+    width: 50px;
+    height: 30px;
 }
 
 .button {
-    
     height: 30px;
     margin-left: 10px;
     background-color: #d1411e;
