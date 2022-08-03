@@ -8,7 +8,7 @@ export default function Cart() {
       <table className={styles.table}>
           <thead>
 
-          <tr className={styles.tr}>
+          <tr className={styles.trTitle}>
             <th>Product</th>
             <th>Name</th>
             <th>Extras</th>
@@ -17,7 +17,7 @@ export default function Cart() {
             <th>Total</th>
           </tr>
           </thead>
-          <tr>
+          <tr className={styles.tr}>
             <td>
               <div className={styles.imgContainer}>
                 <Image src="/imgs/pizza.png" layout="fill" objectFit="cover" alt="" />
@@ -35,7 +35,7 @@ export default function Cart() {
             <td><span className={styles.quantity}>2</span></td>
             <td><span className={styles.total}>$39.80</span></td>
           </tr>
-          <tr>
+          <tr className={styles.tr}>
             <td>
               <div className={styles.imgContainer}>
                 <Image src="/imgs/pizza.png" layout="fill" objectFit="cover" alt="" />
@@ -53,7 +53,7 @@ export default function Cart() {
             <td><span className={styles.quantity}>2</span></td>
             <td><span className={styles.total}>$39.80</span></td>
           </tr>
-          <tr>
+          <tr className={styles.tr}>
             <td>
               <div className={styles.imgContainer}>
                 <Image src="/imgs/pizza.png" layout="fill" objectFit="cover" alt="" />
