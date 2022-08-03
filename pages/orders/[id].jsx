@@ -22,7 +22,7 @@ function Order() {
                 <div className={styles.row}>
                     <table className={styles.table}>
                         <thead>
-                            <tr className={styles.tr}>
+                            <tr className={styles.trTitle}>
                                 <th>Order ID</th>
                                 <th>Customer</th>
                                 <th>Address</th>
@@ -30,7 +30,7 @@ function Order() {
                             </tr>
                         </thead>
                         <thead>
-                        <tr>
+                        <tr className={styles.tr}>
                             <td>
                                 <span className={styles.id}>13548</span>
                             </td>
